@@ -8,10 +8,13 @@ body {
 	max-width: 960px;
 	padding-left: 2.275%;
 	padding-right: 2.275%;
+
+	background-image:(back3.jpg); 	background-size: cover; 
+	background-attachment: fixed;
 }
 /* Header */
 header {
-	text-align:center;
+	text-align: center;
 	display: block;
 }
 header .profileLogo .logoPlaceholder {
@@ -23,10 +26,11 @@ header .logoPlaceholder span {
 	width: 80px;
 	height: 22px;
 	font-family: 'Montserrat', sans-serif;
-	color:black;
+	color: black;
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 53px;
+	background-color: rgba(19,22,167,1.00);
 }
 header .profilePhoto {
 	background-color: rgba(237,237,237,1.00);
@@ -36,17 +40,18 @@ header .profilePhoto {
 	clear: both;
 }
 header .profileHeader h1 {
-	font-family:diplomata;
-	color: rgbablac146,146,146,1.00);
+	font-family: diplomata;
+	color: rgba(247,247,247,1.00);
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 24px;
 	text-decoration: underline;
-
+	text-shadow: 5px -2px #1A1616;
+	
 }
 header .profileHeader h3 {
 	font-family: sans-serif;
-	color: rgba(146,146,146,1.00);
+	color: rgba(252,252,252,1.00);
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 24px;
@@ -57,11 +62,12 @@ hr {
 }
 header .profileHeader p {
 	font-family: sans-serif;
-	color: rgba(146,146,146,1.00);
+	color: rgba(241,239,239,1.00);
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.8;
 	overflow-y: auto;
+	text-shadow: 0px 0px;
 }
 header .socialNetworkNavBar {
 	text-align: center;
@@ -79,13 +85,19 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 /* Main Content sections */
 .mainContent .section1 {
 	display: block;
+	color: rgba(245,245,245,1.00);
 }
+.mainContent .section1 p {
+	color: rgba(249,249,249,1.00);
+}
+
 .section1 .sectionTitle, .section2 .sectionTitle {
 	font-family: 'Montserrat', sans-serif;
 	color: rgba(146,146,146,1.00);
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
+	color: rgba(252,249,249,1.00);
 }
 .section1 .sectionTitleRule, .section2 .sectionTitleRule {
 	margin: 0 3% 0 0;
@@ -96,26 +108,27 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	background-color: rgba(208,207,207,1.00);
 	height: 1px;
 	padding: 0px;
+	color: black
 }
 .mainContent .section1 .section1Content {
 	font-family: ProximaNova;
 	font-size: 14px;
 	font-weight: 100;
-	color: rgba(208,207,207,1.00);
+	color: black;
 }
 .mainContent .section1 .section1Content span {
-	color: rgba(146,146,146,1.00);
+	color: rgba(237,237,237,1.00);
 	font-family: sans-serif;
 }
 .section2 .sectionContentTitle {
 	font-family: sans-serif;
-	color: rgba(146,146,146,1.00);
+	color: rgba(241,241,241,1.00);
 	font-size: 18px;
 	font-weight: 700;
 }
 .section2 .sectionContentSubTitle {
 	font-family: sans-serif;
-	color: rgba(68,67,67,1.00);
+	color: rgba(251,251,251,1.00);
 	font-size: 14px;
 	font-weight: 400;
 }
@@ -138,7 +151,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	cursor: pointer;
 }
 .mainContent .externalResourcesNav .externalResources:hover {
-	background-color: rgba(153,153,153,1.00);
+	background-color: rgba(156,94,95,1.00);
 }
 .externalResourcesNav .externalResources a {
 	font-family: 'Montserrat', sans-serif;
@@ -346,6 +359,7 @@ header .profilePhoto {
 	float: left;
 	clear: both;
 	margin-right: 3%;
+	margin-top: 8px;
 }
 header .profileHeader {
 	text-align: left;
@@ -368,6 +382,8 @@ header .socialNetworkNavBar .socialNetworkNav {
 	margin-left: 26%;
 	margin-bottom: 0%;
 	font-family: sans-serif;
+	font-style: oblique;
+	
 }
 .mainContent .section2 {
 	clear: both;
@@ -393,10 +409,18 @@ footer .footerDisclaimer {
 	float: left;
 	margin-left: 3%;
 	font-family: sans-serif;
+	color: rgba(251,251,251,1.00);
 }
 footer .footerNote {
 	float: right;
 	margin-right: 3%;
 	font-family: sans-serif;
+	color: rgba(245,245,245,1.00);
 }
+.footerNote {
+	color: black;
+	font-style: oblique;
+	opacity: 1;
+}
+
 }
