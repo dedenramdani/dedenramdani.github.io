@@ -423,4 +423,13 @@ footer .footerNote {
 	opacity: 1;
 }
 
-}
+	.phase{
+	margin: auto;
+	width: 800px;
+	color: rgba(249,249,249,1.00);
+		
+	}
+	#hactiv8_head{
+	text-align: center;
+	color: rgba(251,251,251,1.00);
+	}
